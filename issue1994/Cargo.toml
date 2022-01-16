@@ -14,5 +14,6 @@ msrv = "1.51.0"
 
 [dependencies]
 hyper = { version = "0.14", features = ["client", "http1", "http2"] }
-rocket = { version = "0.5.0-rc.1", path = "./Rocket/core/lib" }
+# rocket = { version = "0.5.0-rc.1", path = "./Rocket/core/lib" }
+rocket = { version = "0.5.0-rc.1" }
 tokio = "1"
