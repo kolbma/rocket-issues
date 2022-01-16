@@ -1,0 +1,18 @@
+[package]
+name = "issue1994"
+version = "0.1.0"
+edition = "2018"
+publish = false
+homepage = "https://github.com/SergioBenitez/Rocket/issues/1994"
+repository = "https://github.com/kolbma/rocket-issues/issue1994"
+
+[package.metadata]
+# minimum supported rust version 1.51.0 because of dependency crates rocket -> multer -> spin
+msrv = "1.51.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hyper = { version = "0.14", features = ["client", "http1", "http2"] }
+rocket = { version = "0.5.0-rc.1", path = "./Rocket/core/lib" }
+tokio = "1"
