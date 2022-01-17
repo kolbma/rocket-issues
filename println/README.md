@@ -16,4 +16,4 @@ The debugger jumps immediately in a panic in `std::io::stdio::print_to`.
 
 ## But 
 
-`write!(std::io::stdout(), "Hello world!\n")` instead of `println!` works without panic.
+`write!(std::io::stdout(), "Hello world!\n").unwrap()` instead of `println!` works without panic.
