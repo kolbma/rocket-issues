@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"extensions": {
+		"recommendations": [
+			"vadimcn.vscode-lldb",
+			"serayuzgur.crates",
+			"matklad.rust-analyzer",
+		]
+	}
+}
